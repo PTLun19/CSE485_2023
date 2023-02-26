@@ -7,8 +7,8 @@
     <title>Music for Life</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style_login.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css\style_login.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
 </head>
 <body>
     <header>
@@ -45,7 +45,7 @@
         <div class="d-flex justify-content-center h-100">
                 <div class="card">
                     <div class="card-header">
-                        <h3>Sign In</h3>
+                        <h3 class="text-primary">Sign In</h3>
                         <div class="d-flex justify-content-end social_icon">
                             <span><i class="fab fa-facebook-square"></i></span>
                             <span><i class="fab fa-google-plus-square"></i></span>
@@ -64,7 +64,7 @@
                                 <input type="text" class="form-control" placeholder="password" >
                             </div>
                             
-                            <div class="row align-items-center remember">
+                            <div class="row align-items-center remember" id ="test">
                                 <input type="checkbox">Remember Me
                             </div>
                             <div class="form-group">
