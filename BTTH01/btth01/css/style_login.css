@@ -21,7 +21,7 @@ cursor: pointer;
 }
 
 .card-header h3{
-color: white;
+color: rgb(161, 20, 20);
 }
 
 .social_icon{
@@ -37,6 +37,7 @@ color: black;
 border:0 !important;
 }
 
+
 input:focus{
 outline: 0 0 0 0  !important;
 box-shadow: 0 0 0 0 !important;
@@ -44,7 +45,7 @@ box-shadow: 0 0 0 0 !important;
 }
 
 .remember{
-color: white;
+color: rgb(145, 33, 33);
 }
 
 .remember input
